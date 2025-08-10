@@ -1,0 +1,144 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background: #f5f2f0;
+  color: #111;
+  margin: 0;
+  padding: 0 20px 50px;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 20px;
+}
+
+.big-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: -2px;
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.hero-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: -80px auto 15px;
+  margin-top: 50px;
+  display: block;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  color: #666;
+}
+
+.email {
+  font-size: 0.9rem;
+  margin: 10px 0 20px;
+  color: #999;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #555;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+
+.intro-content,
+.strengths-content,
+.project-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.intro-content p,
+.strengths-content ul,
+.project-content > div {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.intro-content img,
+.strengths-content img,
+.project-images img {
+  width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.strengths-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.strengths-content ul li {
+  margin-bottom: 10px;
+}
+
+.project-images {
+  display: flex;
+  gap: 15px;
+}
+
+.project-images img {
+  width: 150px;
+  height: 150px;
+}
+
+.contact {
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #111;
+}
+
+.social-icons a:hover {
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+}
